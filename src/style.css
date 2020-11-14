@@ -32,6 +32,7 @@ header {
   background-color: lightgray;
   padding: 1rem;
   margin-top: 0.75rem;
+  position: relative;
 }
 
 .menu--closed .menu__items {

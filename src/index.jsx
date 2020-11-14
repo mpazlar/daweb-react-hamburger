@@ -13,18 +13,23 @@ const MenuItem = (props) => {
 
 const App = () => {
   return (
-    <header>
-      <div className="menu">
-        <button className="menu__btn"></button>
-        <div className="menu__items">
-          <MenuItem text="Domů" />
-          <MenuItem text="Naše nabídka" />
-          <MenuItem text="Náš tým" />
-          <MenuItem text="Blog" />
-          <MenuItem text="Kontakt" />
+    <>
+      <header>
+        <div className="menu">
+          <button className="menu__btn"></button>
+          <div className="menu__items">
+            <MenuItem text="Domů" />
+            <MenuItem text="Naše nabídka" />
+            <MenuItem text="Náš tým" />
+            <MenuItem text="Blog" />
+            <MenuItem text="Kontakt" />
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+      <main>
+        <h1>Domů</h1>
+      </main>
+    </>
   );
 };
 
